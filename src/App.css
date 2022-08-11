@@ -1,0 +1,69 @@
+.app{
+    width: 60vw;
+    margin: 2rem auto;
+    background-color: #7d7d7d;
+    border-radius: .5rem;
+}
+
+.todo_header{
+    padding: .5rem;
+    border-bottom: 1px solid #2c3035;
+    text-align: center;
+}
+
+.todo_header h1{
+    margin: 0;
+}
+
+.todo_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin:.6rem;
+    margin-bottom: .4rem;
+    border-bottom: 1px solid #2e3035;
+}
+.todo_form p{
+    font-size: 2rem;
+}
+.todo_form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.todo_control{
+    display: flex;
+    flex-direction: column;
+    margin: 0 2rem;
+    margin-bottom: .5rem;
+}
+
+.todo_control label{
+    font-weight: bold;
+    font-size: .7rem;
+    margin-bottom: .4rem;
+}
+
+.todo_control input{
+    border: 2px solid #222;
+    border-radius: .5rem;
+    background-color:#a3a3a3 ;
+    padding: .4rem;
+    color: #222;
+}
+
+.todo_list{
+    margin: .6rem;
+    padding: .2rem;
+}
+
+input[type="submit"]{
+    background-color: #333;
+    color: #eee;
+    display: block;
+    width: 100%;
+    border:  2px solid #222;
+    border-radius: 1rem;
+    cursor: pointer;
+}
