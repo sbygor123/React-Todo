@@ -54,8 +54,12 @@
 }
 
 .todo_list{
-    margin: .6rem;
+    margin-bottom: .6rem;
     padding: .2rem;
+}
+
+.todo_list p{
+    text-align: center;
 }
 
 input[type="submit"]{
@@ -66,4 +70,38 @@ input[type="submit"]{
     border:  2px solid #222;
     border-radius: 1rem;
     cursor: pointer;
+}
+
+.todo{
+    display: flex;
+    justify-content: space-around;
+    padding: .5rem 0; 
+    margin: .5rem;
+    border-radius: 5px;
+    border-bottom: 2px solid black;
+}
+
+.todo h3{
+margin-bottom: .5rem;
+}
+
+.todo-done{
+    text-decoration: line-through;
+    color: rgb(240, 98, 146);
+}
+
+.todo p{
+    font-style: italic;
+    font-size: .8rem;
+    margin-bottom: .5rem;
+}
+
+.todo svg{
+    font-size: 1.2rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.todo svg:hover{
+    color: rgb(8, 89, 240)
 }
